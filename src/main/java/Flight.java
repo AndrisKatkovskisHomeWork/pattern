@@ -18,14 +18,4 @@ public class Flight implements Command {
         System.out.println("Ready for landing.");
     }
 
-    public IATCMediator getAtcMediator() {
-        return atcMediator;
-    }
-
-    public void setAtcMediator(IATCMediator atcMediator) {
-        this.atcMediator = atcMediator;
-    }
 }
-
-
- // getClass().getName()
